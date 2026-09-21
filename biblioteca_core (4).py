@@ -988,7 +988,7 @@ class Biblioteca:
             (codigo,)
         )]
 
-   def crear_prestamo(self, codigo_usuario, libro_id):
+    def crear_prestamo(self, codigo_usuario, libro_id):
         usuario = self.buscar_usuario(codigo_usuario)
         libro = self.buscar_libro(libro_id)
 
